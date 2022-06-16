@@ -1,0 +1,99 @@
+    * {
+        border: 0;
+        margin: 0;
+        box-sizing: content-box;
+    }
+    
+    body {
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    main {
+        width: 55%;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div {
+        width: 33.3%;
+    }
+    
+    p,
+    h1 {
+        color: hsla(0, 0%, 100%, 0.75);
+        margin: 30px;
+    }
+    
+    svg {
+        margin: 30px;
+    }
+    
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    button.btn-sedans {
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);
+        border-radius: 20px;
+        width: 120px;
+        margin: 30px;
+        padding: 12px;
+        margin-top: 50px;
+    }
+    
+    button.btn-sedans:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid white;
+    }
+    
+    button.btn-suvs {
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        border-radius: 20px;
+        width: 120px;
+        margin: 30px;
+        padding: 12px;
+        margin-top: 50px
+    }
+    
+    button.btn-suvs:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid white;
+    }
+    
+    button.btn-luxury {
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+        border-radius: 20px;
+        width: 120px;
+        margin: 30px;
+        padding: 12px;
+        margin-top: 50px
+    }
+    
+    button.btn-luxury:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: hsl(0, 0%, 95%);
+        border: 2px solid white;
+    }
